@@ -1,0 +1,254 @@
+body {
+    margin:0;
+}
+
+#arriba.volve-alto {
+    color:white;
+    /* margin-top: 40px; */
+    position: absolute;
+ }
+
+ .volver {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+  }
+  
+  .volver img{
+    margin-bottom:32px;
+    max-width: 40px;
+  }
+  
+.definiciones {
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.definiciones p {
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 200;
+}
+
+p {
+    font-family: TradeGothic;
+    font-size: 16px;
+}
+
+.control {
+    position: fixed;
+    top: 160px;
+    left: 120px;
+}
+
+.control img {
+    max-width: 36px;
+    
+    
+}
+
+.proyectos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.proy {
+    width: 60%;
+    background-color: black;
+    border-radius: 36px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.proy:hover {
+    background-color:#0EB9DE;
+}
+
+.proy img {
+    width: 300px;
+    padding: 16px;
+    border-radius: 36px;
+}
+
+.descripcion {
+    margin-left: 100px;
+}
+.proy p{
+    color: white;
+    font-family: TradeGothic;
+    padding-right: 50px;
+    font-size: 24px;
+}
+
+.proy h3 {
+    font-size: 24px;
+}
+
+.proyectos a {
+    /* width: 100% */
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    margin-top: 120px;
+    padding: 0px 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto {
+    text-align:right; 
+    width: 80%;
+    
+}
+
+.content h2 {
+    font-size: 36px;
+}
+
+.content span {
+    font-family: TradeGothic;
+    color: #aeaeae;
+
+}
+
+.content p {
+    font-family: TradeGothic;
+    font-size: 16px;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.imagenes img {
+    max-width: 500px;
+    margin: 16px;
+}
+
+.blanco {
+    border: 1px solid #aeaeae;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    background-color: black;
+    border-radius: 32px;
+    color: white;
+    border: none;
+    padding: 10px 60px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-family: CenturyGothic;
+    font-size: 24px;
+}
+
+button:hover {
+    background-color: #0EB9DE;
+    font-family: CenturyGothic;
+}
+
+.instrucciones{
+    margin-top: 20px;
+    /* max-width: 400px; */
+    text-align: right;
+}
+
+#imagen-logo {
+    max-width: 200px;
+    border-radius: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .control {
+        position: absolute;
+        top: 150px;
+        left: 24px;
+    }
+
+    .proy {
+        width: 95%;
+        border-radius: 36px;
+    }
+
+    .proy img {
+        width: 130px;
+        padding:8px;
+        margin-right: 16px;
+    }
+
+    .proy h3 {
+        margin-right: 8px;
+        font-size: 16px;
+    }
+
+    .proy p {
+        margin-right: 8px;
+        font-size: 16px;
+    }
+
+    .control img {
+        max-width: 16px;
+    }
+
+    .descripcion {
+        margin:0;
+    }
+
+    .texto {
+        width:90%;
+    }
+
+    .content {
+        padding: 0px 16px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    .content h2 {
+        font-size: 24px;
+    }
+
+    .imagenes img {
+        max-width: 300px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+}
+

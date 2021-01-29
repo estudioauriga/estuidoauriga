@@ -1,0 +1,227 @@
+@font-face{
+    font-family: TradeGothic;
+    src: url('./../fuentes/TradeGothic.ttf');
+}
+
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+span {
+    font-family: TradeGothic;
+    font-size: 24px;
+}
+
+/* itroducción */
+.intro {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ordenador {
+    max-height: 64px;
+    padding-top: 200px;
+}
+
+#telf {
+    display: none;
+}
+
+.parrafos {
+    max-width: 900px;
+    padding: 40px;
+    margin-bottom: 72px;
+}
+
+.intro-texto {
+    text-align: right;
+    font-family: TradeGothic;
+    font-size: 16px;
+}
+
+.intro-texto-cita {
+    text-align: right;
+    font-family:CenturyGothic;
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* que */
+.que {
+    background-color: white;
+    padding: 50px 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.que-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    max-width: 900px;
+}
+
+.que-contenido p {
+    font-family: TradeGothic;
+    font-size: 16px;
+    
+    text-align: right;
+}
+
+.que-contenido h3 {
+    text-align: right;
+    font-size: 36px;
+}
+
+.valores img {
+    max-width: 168px;
+    padding: 32px 40px;
+}
+
+.valores {
+    margin: 32px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.equilibrio  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.razon  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.etica  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.belleza  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* quien */
+.quien {
+    color: white;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quien p {
+    max-width: 900px;
+    font-size: 16px;
+    text-align: right;
+    font-family:TradeGothic;
+}
+
+.quien h3 {
+    font-size: 36px;
+    text-align: right;
+}
+
+.quien h4 {
+    font-size: 24px;
+    text-align: right;
+}
+
+.perfiles div {
+    padding: 20px;
+}
+
+.perfiles {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.perfiles img {
+    max-height: 500px;
+}
+
+.perfiles p {
+    max-width: 500px;
+}
+
+.natalia {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.irantzu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+/* responsive */
+@media screen and (max-width: 600px){
+    #ordenador {
+        display:none;
+    }
+
+    #telf {
+        display:flex;
+        max-height: 64px;
+        padding-top: 200px;
+    }
+
+
+
+    .que-contenido h3 {
+        font-size: 24px;
+    }
+
+    .valores {
+        margin: 32px 8px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .valores img {
+        max-width: 132px;
+        padding: 24px 8px;
+    }
+
+    span {
+        font-size: 16px;
+    }
+
+    
+    .quien h3 {
+        font-size: 24px;
+        text-align: right;
+    }
+    
+    .quien h4 {
+        font-size: 16px;
+        text-align: right;
+    }
+
+    .perfiles img {
+        max-height: 250px;
+    }
+    
+    .perfiles div {
+        padding: 16px;
+    }
+}

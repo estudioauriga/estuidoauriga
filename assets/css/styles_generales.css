@@ -1,0 +1,236 @@
+@font-face{
+    font-family: CenturyGothic;
+    src: url('./../fuentes/CenturyGothic.ttf');
+}
+
+@font-face{
+    font-family: TradeGothic;
+    src: url('./../fuentes/TradeGothic.ttf');
+}
+
+img {box-sizing: content-box !important;}
+.logo-fn {box-sizing: content-box;}
+
+body {
+    margin: 0;
+    font-family: CenturyGothic;
+}
+
+.negro {
+    background-color: black;
+}
+
+/* nav-bar fondo blanco movil */
+.movil-fb {
+    border-bottom: 1px solid #aeaeae;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0px;
+}
+
+#iso {
+    max-width: 56px;
+}
+
+#ham {
+    max-width: 32px;
+    margin-right: 16px;
+}
+
+.visible {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 32px ;
+}
+
+#h2-fb {
+    color: black;
+    font-weight: 200;
+}
+
+.oculto {
+    display: none;
+}
+
+.oculto-activo {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links-fb-movil {
+    margin-bottom: 15px;
+}
+
+.links-fb-movil a {
+    margin-right: 8px;
+    margin-left: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.links-fb-movil a:hover {
+    color: #aeaeae
+}
+
+/* nav-bar fondo blanco desktop */
+.desktop-fb {
+    border-bottom: 1px solid #aeaeae;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0px;
+}
+
+.logotipo-fb img{
+    max-height: 56px;
+    padding: 24px 48px;
+    border-right: 1px solid #aeaeae;
+}
+
+
+.links-fb-desktop a{
+    color: black;
+    text-decoration: none;
+    /* margin-left: 72px; */
+    font-size: 24px;
+    padding: 38px;
+    border-left: 1px solid #aeaeae;
+}
+
+.links-fb-desktop a:hover {
+    color: #aeaeae;
+}
+
+
+/* nav-bar fondo negro movil */
+.movil-fn {
+    border-bottom: 1px solid #aeaeae;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0px;
+}
+
+#iso {
+    max-width: 56px !important;
+}
+
+#ham {
+    max-width: 32px;
+    margin-right: 16px;
+}
+
+.visible {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 32px ;
+}
+
+#h2-fn {
+    color: white;
+    font-weight: 200;
+}
+
+.oculto {
+    display: none;
+}
+
+.oculto-activo {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links-fn-movil {
+    margin-bottom: 15px;
+}
+
+.links-fn-movil a {
+    margin-right: 8px;
+    margin-left: 8px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.links-fn-movil a:hover {
+    color: #aeaeae;
+}
+
+/* nav-bar fondo negro desktop */
+.desktop-fn {
+    border-bottom: 1px solid #aeaeae;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+    top: 0px;
+}
+
+.logo img{
+    max-height: 56px !important;
+    padding: 24px 48px;
+    border-right: 1px solid #aeaeae;
+}
+
+
+
+.links-fn-desktop a{
+    color: white;
+    text-decoration: none;
+    padding: 36px;
+    border-left: 1px solid #aeaeae;
+    font-size: 24px;
+}
+
+.links-fn-desktop a:hover {
+    color: #aeaeae;
+}
+
+
+/* clases active */
+#active-fn {
+    color: #F8AB12;
+}
+
+#active-fb {
+    color: #0EB9DE;
+}
+
+#registrado {
+    margin-top: 120px;
+    color: white;
+}
+
+
+@media screen and (min-width: 600px){
+    .movil-fb {
+        display: none;
+    }
+    .movil-fn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .desktop-fb {
+        display: none;
+    }
+    .desktop-fn {
+        display: none;
+    }
+}

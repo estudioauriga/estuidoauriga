@@ -1,0 +1,43 @@
+.carrusel {
+    margin-top: 120px;
+}
+
+#textos-carrusel {
+    padding-top: 50px;
+}
+
+#textos-carrusel h5 {
+    font-family: CenturyGothic;
+    text-align: center;    
+    font-size: 24px;
+}
+
+#textos-carrusel p {
+    font-family: TradeGothic;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.carrusel-movil {
+    margin-top: 50px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .carrusel {
+        display: none;
+    }
+
+    
+    
+}
+
+@media screen and (min-width: 600px) {
+    .carrusel-movil {
+        display: none;
+    }
+    
+}

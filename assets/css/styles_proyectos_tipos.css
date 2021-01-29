@@ -1,0 +1,166 @@
+body {
+    margin: 0px;
+}
+
+#organizacion {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+#organizacion img {
+    max-width: 32px;
+    padding: 48px;
+}
+
+#arriba-alto {
+  color:white;
+  margin-top: 40px;
+  position: absolute;
+}
+
+/* tipos */
+
+* {
+    box-sizing: border-box;
+  }
+
+
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    justify-content: center;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    /* padding: 0 60px 0 270px; */
+    margin-bottom: 50px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    /* -ms-flex: 33%;
+    flex: 33%; */
+    max-width: 400px;
+    padding: 0 40px;
+  }
+  
+  .column div {
+    margin: 24px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+/* elementos */
+.column div {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.packaging {
+    background-image: url('./../imagenes/tipos/packaging.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.modelado {
+    background-image: url('./../imagenes/tipos/modelado.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.branding{
+    background-image: url('./../imagenes/tipos/branding.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.web {
+    background-image: url('./../imagenes/tipos/web.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.editorial {
+    background-image: url('./../imagenes/tipos/editorial.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.publicidad {
+    background-image: url('./../imagenes/tipos/publicidad.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+ .row span {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    color: white;
+    text-align: center;
+}
+  
+.column div:hover {
+    background-image: none;
+    background-color: #0EB9DE;
+}
+
+.volver {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
+.volver img{
+  margin-bottom:32px;
+  max-width: 32px;
+
+}
+
+.i-tipos{
+  position: relative;
+}
+
+.cat{
+  color: black; 
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top:100px;
+  left: 50%;
+  display:none;
+}
+
+.i-galeria{
+  position: relative;
+}
+
+.gal {
+  color: black; 
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top:100px;
+  left: 50%;
+  display:none;
+}
+  
+  
+  
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (min-width: 600px) {
+      .volver {
+        display: none;
+      }
+  }
+

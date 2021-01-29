@@ -1,0 +1,266 @@
+body {
+    background-color: black;
+    margin: 0; 
+}
+
+*{
+    box-sizing: border-box;
+}
+
+p {
+    font-family: TradeGothic;
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+/* formulario */ 
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 180px 16px 80px 16Spx;
+    margin-top: 180px;
+}
+
+.form-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+}
+
+.formulario p {
+    margin-bottom: 60px;
+    /* max-width: 100%; */
+    text-align: center;
+    color: white;
+}
+
+.formulario h2 {
+    text-align: center;
+    color: white;
+}
+
+.form {
+    /* background-color: white; */
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;      
+    
+}
+
+.form label {
+    margin-bottom: 10px;
+display: none;
+}
+
+.form input {
+    margin-bottom: 50px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border:none;
+    border-bottom: 1px solid white;
+    font-family: CenturyGothic;
+    width: 400px;
+}
+
+.form textarea {
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    font-family: CenturyGothic;
+    padding: 10px;
+    width: 400px;
+}
+
+::-webkit-input-placeholder { color: white } 
+input:-webkit-autofill {
+    -webkit-text-fill-color: white !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px black inset !important;
+}
+
+
+#enviar {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 32px;
+    color: black;
+    border: none;
+    width: 100px;
+    padding: 10px 20px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+#enviar:hover {
+    background-color: #F8AB12;
+}
+
+
+/* contacto directo */ 
+.contacto-directo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.contacto-directo p {
+    margin-top: 60px;
+    
+}
+
+.redes img {
+    max-height: 80px;
+    padding: 0px 50px;
+}
+
+.redes span {
+    font-family: TradeGothic;
+    font-size: 16px;
+}
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes-1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.redes-1 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.whatsapp span {
+    font-size: 14px;
+}
+
+.redes-2 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.redes-2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 32px;
+}
+
+.facebook {
+    margin-right: 30px;
+}
+
+span {
+    margin-top: 16px;
+}
+
+#registrado {
+    margin-top: 180px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: TradeGothic;
+    font-size: 36px;
+   
+    text-align: center;
+    padding: 120px;
+}
+
+
+
+
+
+@media screen and (max-width: 600px){
+    .form input {
+        width: 200px;
+    }
+
+    .form textarea {
+        width: 200px;
+    }
+
+    .contacto-directo p {
+        margin-top: 60px;
+        max-width: 300px;
+    }
+
+    .redes img {
+        
+        padding: 0px 16px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    span {
+        display: inline;
+    }
+
+    #registrado {
+        padding: 16px;
+    }
+}
+
+@media screen and (min-width: 600px){
+    span {
+        display: none;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .redes-1 div {
+        padding: 20px 32px;
+        margin: 0px 32px;
+    }
+
+    .redes-1 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .redes-2 div {
+        padding: 20px 32px;
+        margin: 0px 32px;
+    }
+
+    .redes-2 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
